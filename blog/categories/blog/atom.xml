@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Peng Liang's Home]]></title>
-  <link href="http://pengliang.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Blog | Peng Liang's Home]]></title>
+  <link href="http://pengliang.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://pengliang.github.com/"/>
   <updated>2011-12-23T18:07:44+08:00</updated>
   <id>http://pengliang.github.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://pengliang.github.com/blog/2011/12/23/hello-world-octopress/"/>
     <updated>2011-12-23T17:00:00+08:00</updated>
     <id>http://pengliang.github.com/blog/2011/12/23/hello-world-octopress</id>
-    <content type="html"><![CDATA[<p>新博客，学习Markdown 语法中&#8230;</p>
+    <content type="html"><![CDATA[<p>新博客，学习Markdown 语法中...</p>
 ]]></content>
   </entry>
   
