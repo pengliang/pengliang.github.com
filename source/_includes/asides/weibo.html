@@ -1,0 +1,27 @@
+{% if site.sina_user %}
+<section>
+<p>
+<a id="hover_pop" href="http://weibo.com/{{site.sina_user}}" wb_user_id="{{site.sina_id}}" >pengliang@Weibo<span id="wb_follow_btn"> </a>
+</p>
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=1166443256" type="text/javascript"> </script>
+  <script type="text/javascript">
+    WB2.anyWhere(function(W){
+      W.widget.hoverCard({
+          id: "hover_pop"
+          });
+
+
+      W.widget.followButton({
+         uid: '{{site.sina_id}}',
+         id: "wb_follow_btn"
+        });
+      });
+
+  </script>
+
+</section>
+<!--
+<iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no"
+ src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=1652310740&verifier=a1171a80&dpc=1"></iframe> 
+!--> 
+{% endif %}
